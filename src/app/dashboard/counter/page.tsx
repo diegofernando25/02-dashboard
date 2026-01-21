@@ -1,5 +1,6 @@
 //import { CartCounter } from "@/app/shopping-cart";
-import { CartCounter } from "../../shopping-cart";
+
+import { CartCounter } from "@/src/shopping-cart";
 
 //Hay que usar
 export const metadata = {
