@@ -12,7 +12,7 @@ export default async function PokemonsPage() {
         <div className="flex flex-col">
 
             <span className="text-5xl my-2 text-blue-500">
-                Favorite Pokemons</span>
+                Your Favorite Pokemons</span>
             <small>Global state</small>
             <PokemonGrid pokemons={[]} />
             

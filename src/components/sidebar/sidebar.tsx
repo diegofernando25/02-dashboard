@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { IoBrowsersOutline, IoCalculator, IoFootball, IoHeart, IoLogoReact } from "react-icons/io5";
-import SidebarMenuItem from "./SidebarMenuItem";
+import { IoBrowsersOutline, IoCalculator, IoFootball, IoHeart, IoHeartOutline, IoLogoReact } from "react-icons/io5";
+import SidebarMenuItem from "././SidebarMenuItem";
 import path from "path";
 
 //Aqui van los items del menu, cada item tiene path, icon, title, subTitle  
@@ -27,7 +27,7 @@ const menuItems = [
     },
      {
         path: '/dashboard/favorites',
-        icon: <IoHeart size={40} />,
+        icon: <IoHeartOutline size={40} />,
         title: 'Favorite Pokemons',
         subTitle: 'Your favourite pokemons'
     },
